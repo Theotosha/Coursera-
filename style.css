@@ -1,0 +1,95 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {text-align: center;
+     color: blue;
+     font-size: 1.75em;
+     font-weight: bold;
+     margin-bottom: 15px;
+     margin-top: 50px;
+  }
+  
+  section {
+      position: relative;
+      padding: 10px;
+      width: 100%;
+      font-family: serif;
+  }
+  
+  div {position: relative;
+      background-color: violet;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10px;
+      border: 1px solid black;}
+  
+  .s1 {float: right;
+      width: 100px;
+      padding:  5px;
+      margin: 0px;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: bold;
+      background-color: yellowgreen;}
+  
+  .s2 {float: right;
+      width: 100px;
+      padding:  5px;
+      margin: 0px;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: bold;
+      background-color: green;}
+  
+  .s3 {float: right;
+      width: 100px;
+      padding:  5px;
+      margin: 0px;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: bold;
+      background-color: skyblue;}
+  
+  .content {background-color: violet;
+    width: 100%;
+    border: none;
+    margin: 0px;
+    clear: right;
+    text-align: justify;
+    font-family: serif;
+    color: black;
+    padding: 10px;
+    height: auto;
+  }
+  
+  /***Desktop Version***/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+  /***Tablet Version***/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      float: left;
+      width: 50%;
+    }
+    .col-md-12 {
+      float: left;
+      width: 100%;
+    }
+  }
+  /***Mobile Version***/
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+      width: 100%;
+      }
+   } 
